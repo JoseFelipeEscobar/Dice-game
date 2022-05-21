@@ -1,0 +1,39 @@
+extends layout
+
+block content
+    div.title
+        img(src="https://cdn-icons-png.flaticon.com/512/1055/1055805.png?w=360")
+        h2 Ingreso de Apuestas
+
+    form#createGame(class="form1", autocomplete="off",action="", method="post")
+      div.form-group  
+        label(class="form-label",for='betGamers') 
+            input#player1.form-control(
+            
+            type="text",
+            placeholder="apuesta del jugador 1",
+            name="betGamers",
+            value="",
+            required)
+
+        label(for='betGamers') 
+            input#player2(
+            class="form-control", 
+            type="text",
+            placeholder="apuesta del jugador 2", 
+            name="betGamers",
+            value="",
+            required)
+
+        label(for='betGamers') 
+            input#player3(
+            class="form-control",
+            type="text",
+            placeholder="apuesta del jugador 3", 
+            name="betGamers",value="",
+            required)
+        button#submit(
+            class="form-control btn-primary",
+            type="submit", 
+            onsubmit="getBet()") Enviar datos de apuesta
+    

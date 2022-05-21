@@ -1,0 +1,46 @@
+body {
+    /* color: lawngreen; */
+    padding-top: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: #E0DFD5;
+
+}
+.title{
+    text-align: center;
+}
+img{
+    height: 20vh;
+    padding-bottom: 2vh;
+}
+
+/* h2{
+    color: rgba(10, 10, 10, 0.9);
+    margin:30px;
+    font-weight: bold;
+} */
+label{
+    display: grid;
+    grid-row-gap: 1em;
+}
+
+
+.form-group{
+   
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 1.5em;
+}
+::-webkit-input-placeholder{
+    color: rgb(16, 17, 17) ;
+    text-align: center;
+    font-weight: bold;
+}
+a {
+  color: #00B7FF;
+}
+.gun{
+    min-height: 300px;   
+}
