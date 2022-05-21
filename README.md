@@ -1,8 +1,8 @@
 
 # Juego demo de apuestas con dados
 Este es un demo para el juego de dados <br>
-@author: Jose Felipe Escobar Ballesta - jfejose10@gmail.com
-El proyecto fue desarrollado con Visual Studio Code y mongodb compass
+@author: Jose Felipe Escobar Ballesta - jfejose10@gmail.com <br>
+El proyecto fue desarrollado con Visual Studio Code
 
 ## Database
     > the mongo database is running in localhost 27017
