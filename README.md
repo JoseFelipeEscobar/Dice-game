@@ -12,8 +12,6 @@ El proyecto fue desarrollado con Visual Studio Code
     > npm run start -> run standard
 
 ## Routes
-    > home -> localhost:8080/
-
     "GET"
     > create-game -> localhost:8080/createGame
     > game-status -> localhost:8080/game/:id
