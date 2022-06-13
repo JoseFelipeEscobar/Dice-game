@@ -4,6 +4,8 @@ Este es un demo para el juego de dados <br>
 @author: Jose Felipe Escobar Ballesta - jfejose10@gmail.com <br>
 El proyecto fue desarrollado con Visual Studio Code
 
+mira el juego aqui: [crear juego](https://dice-game-api.herokuapp.com/createGame "juego de apuestas de dados virtual")
+
 ## Database
     > the mongo database is running in localhost 27017
     > the database name: 'games'
